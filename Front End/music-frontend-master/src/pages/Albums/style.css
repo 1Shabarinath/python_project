@@ -1,0 +1,13 @@
+a {
+  text-decoration: none;
+}
+
+.section {
+  padding-top: 20px;
+}
+
+@media (max-width: 767px) {
+  .section {
+    padding-top: 30%;
+  }
+}

@@ -1,0 +1,39 @@
+.header {
+  position: absolute;
+  top: 1%;
+  z-index: 1000;
+  width: 80%;
+  background-color: #4f494935;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  /* padding: 10px; */
+}
+
+.header p {
+  margin: 0;
+  padding: 10px;
+  cursor: pointer;
+  font-size: larger;
+}
+
+.header p:hover {
+  text-decoration: underline;
+}
+
+.nav-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: rgb(255, 196, 0);
+  font-size: large;
+  font-style: italic;
+}
+
+p a {
+  text-decoration: none;
+  color: white;
+}

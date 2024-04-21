@@ -1,0 +1,11 @@
+.main {
+  position: relative;
+  background: white;
+  color: #1d1c1c;
+  /* height: 100vh; */
+}
+
+.main header {
+  display: flex;
+  justify-content: center;
+}

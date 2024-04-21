@@ -1,0 +1,29 @@
+.cards-container {
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+section {
+  width: 48%;
+  padding: 5px;
+}
+
+@media (max-width: 767px) {
+  section {
+    width: 100%;
+    padding: 10px;
+  }
+  .cards-container {
+    padding-top: 30%;
+  }
+}
+.not-fount-section {
+  width: 100%;
+}
+
+.not-found {
+  text-align: center;
+  width: 100%;
+}
